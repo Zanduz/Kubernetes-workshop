@@ -2,6 +2,8 @@
 
 A practical introduction to Kubernetes.
 
+Solutions are given at the bottom, but you are encouraged to try to do the exercises without them. Use the [Kubernetes documentation](https://kubernetes.io/docs/home/) or search the web.
+
 ## Requirements
 
 - [Rancher Desktop](https://docs.rancherdesktop.io/getting-started/installation/)
@@ -67,6 +69,7 @@ k3d-two-node-cluster-agent-1    Ready    <none>                 6m45s   v1.28.8+
 1. Start a shell inside the container in the Nginx Pod.
 2. Check the user.
 3. Check the OS details.
+4. Exit out of the container again.
 
 ### Exercise 9: Viewing Cluster Information
 1. Get cluster information.
@@ -210,6 +213,12 @@ $ whoami
 
 ```bash
 $ cat /etc/os-release
+```
+
+4. Exit out of the container again.
+
+```bash
+$ exit
 ```
 
 ### Exercise 9: Viewing Cluster Information
